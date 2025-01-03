@@ -22,5 +22,16 @@ public class SquarePattern {
             }
             System.out.println();
         }
+
+        System.out.println("---------------------------------------");
+
+        for(int i=1; i<=n; i++){
+            char ch = 97;
+            for (int j=1;j<=n; j++){
+                System.out.print(ch + " ");
+                ch++;
+            }
+            System.out.println();
+        }
     }
 }
